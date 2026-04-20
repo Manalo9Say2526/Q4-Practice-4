@@ -3,7 +3,7 @@ function checkGate() {
     const maxCars = 25;
 
     while (carCounter < maxCars){
-        window.alert(carCounter);
+        window.alert("Car No. " + carCounter + " is entering");
         carCounter += 1;
     }
 }
